@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C:\\Users\\kavitha\\eclipse-workspace\\CucumberInFreecrm\\src\\main\\java\\com\\crm\\Features\\deals.feature"
+		features = "C:\\Users\\kavitha\\eclipse-workspace\\CucumberInFreecrm\\src\\main\\java\\com\\crm\\Features\\dealsmap.feature"
 		,glue={"stepdefinition"}
 		 ,format={"pretty","html:test-output","junit:junit_xml/cucumber.xml"}
 		 ,strict =true
