@@ -1,97 +1,209 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/kavitha/eclipse-workspace/CucumberInFreecrm/src/main/java/com/crm/Features/tagging.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/kavitha/eclipse-workspace/CucumberInFreecrm/src/main/java/com/crm/Features/taggedhooks.feature");
 formatter.feature({
-  "line": 3,
-  "name": "Free CRM application testing",
+  "line": 1,
+  "name": "Tagged Hooks",
   "description": "",
-  "id": "free-crm-application-testing",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@FunctionalTest"
-    }
-  ]
+  "id": "tagged-hooks",
+  "keyword": "Feature"
 });
-formatter.scenario({
-  "line": 10,
-  "name": "create a contact",
-  "description": "",
-  "id": "free-crm-application-testing;create-a-contact",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 9,
-      "name": "@RegrsssionTest"
-    }
-  ]
+formatter.before({
+  "duration": 702721,
+  "status": "passed"
 });
-formatter.step({
-  "line": 11,
-  "name": "This is a contact test case",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "taggingStepDefinition.this_is_a_contact_test_case()"
-});
-formatter.result({
-  "duration": 353932977,
+formatter.before({
+  "duration": 305067,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 14,
-  "name": "create a deal",
+  "line": 4,
+  "name": "tagged hooks First",
   "description": "",
-  "id": "free-crm-application-testing;create-a-deal",
+  "id": "tagged-hooks;tagged-hooks-first",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 13,
-      "name": "@SmokeTest"
-    },
-    {
-      "line": 13,
-      "name": "@RegressionTest"
+      "line": 3,
+      "name": "@First"
     }
   ]
 });
 formatter.step({
-  "line": 15,
-  "name": "This is a deal test case",
+  "line": 6,
+  "name": "User is on the deal page",
   "keyword": "Given "
 });
+formatter.step({
+  "line": 7,
+  "name": "User fills the deal form",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "User saves the deal form",
+  "keyword": "Then "
+});
 formatter.match({
-  "location": "taggingStepDefinition.this_is_a_deal_test_case()"
+  "location": "taggedhooksStepDefinition.User_is_on_deal_Page()"
 });
 formatter.result({
-  "duration": 177921,
+  "duration": 508343047,
+  "status": "passed"
+});
+formatter.match({
+  "location": "taggedhooksStepDefinition.User_is_on_deal_form()"
+});
+formatter.result({
+  "duration": 220160,
+  "status": "passed"
+});
+formatter.match({
+  "location": "taggedhooksStepDefinition.User_saves_deal_form()"
+});
+formatter.result({
+  "duration": 444587,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 74666,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 5116164,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 2955523,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1237334,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 139947,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 11,
+  "name": "tagged hooks Second",
+  "description": "",
+  "id": "tagged-hooks;tagged-hooks-second",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 10,
+      "name": "@Second"
+    }
+  ]
+});
+formatter.step({
+  "line": 13,
+  "name": "User is on the deal page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 14,
+  "name": "User fills the deal form",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 15,
+  "name": "User saves the deal form",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "taggedhooksStepDefinition.User_is_on_deal_Page()"
+});
+formatter.result({
+  "duration": 546560,
+  "status": "passed"
+});
+formatter.match({
+  "location": "taggedhooksStepDefinition.User_is_on_deal_form()"
+});
+formatter.result({
+  "duration": 298667,
+  "status": "passed"
+});
+formatter.match({
+  "location": "taggedhooksStepDefinition.User_saves_deal_form()"
+});
+formatter.result({
+  "duration": 458240,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 77227,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1265921,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 153600,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 86187,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 78080,
   "status": "passed"
 });
 formatter.scenario({
   "line": 18,
-  "name": "create a task",
+  "name": "tagged hooks Third",
   "description": "",
-  "id": "free-crm-application-testing;create-a-task",
+  "id": "tagged-hooks;tagged-hooks-third",
   "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 17,
-      "name": "@RegressionTest"
-    }
-  ]
+  "keyword": "Scenario"
 });
 formatter.step({
-  "line": 19,
-  "name": "This is a task test case",
+  "line": 20,
+  "name": "User is on the deal page",
   "keyword": "Given "
 });
+formatter.step({
+  "line": 21,
+  "name": "User fills the deal form",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 22,
+  "name": "User saves the deal form",
+  "keyword": "Then "
+});
 formatter.match({
-  "location": "taggingStepDefinition.this_is_a_task_test_case()"
+  "location": "taggedhooksStepDefinition.User_is_on_deal_Page()"
 });
 formatter.result({
-  "duration": 47786,
+  "duration": 398507,
+  "status": "passed"
+});
+formatter.match({
+  "location": "taggedhooksStepDefinition.User_is_on_deal_form()"
+});
+formatter.result({
+  "duration": 64854,
+  "status": "passed"
+});
+formatter.match({
+  "location": "taggedhooksStepDefinition.User_saves_deal_form()"
+});
+formatter.result({
+  "duration": 64000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 75520,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 67414,
   "status": "passed"
 });
 });

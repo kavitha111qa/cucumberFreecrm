@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.354159">
-<testcase classname="Free CRM application testing" name="create a contact" time="0.353933">
-<system-out><![CDATA[Given This is a contact test case...........................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.523174">
+<testcase classname="Tagged Hooks" name="tagged hooks First" time="0.515206">
+<system-out><![CDATA[Given User is on the deal page..............................................passed
+When User fills the deal form...............................................passed
+Then User saves the deal form...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="create a deal" time="0.000178">
-<system-out><![CDATA[Given This is a deal test case..............................................passed
+<testcase classname="Tagged Hooks" name="tagged hooks Second" time="0.007133">
+<system-out><![CDATA[Given User is on the deal page..............................................passed
+When User fills the deal form...............................................passed
+Then User saves the deal form...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="create a task" time="0.000048">
-<system-out><![CDATA[Given This is a task test case..............................................passed
+<testcase classname="Tagged Hooks" name="tagged hooks Third" time="0.000835">
+<system-out><![CDATA[Given User is on the deal page..............................................passed
+When User fills the deal form...............................................passed
+Then User saves the deal form...............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
